@@ -7,7 +7,9 @@ Run this colab with a GPU instance and it will give you a [Gradio](https://githu
 
 ## Whisper
 
-Whisper is an ASR (Automatic Speech Recognition) model built and trained by Open AI on at least 82 languages including 3 mainstream local Pakistani languages (Urdu, Punjabi, Sindhi). The WER (Word Error Rate) for Urdu is tiny bit lesser than Hindi. Sindhi and Punjabi have relatively poorer WER. The lesser the WER, the better.
+Whisper is an ASR (Automatic Speech Recognition) model built and trained by Open AI on at least 82 languages including 3 mainstream local Pakistani languages (Urdu, Punjabi, Sindhi). The WER (Word Error Rate) for Urdu is tiny bit lesser than Hindi. Sindhi and Punjabi have relatively poorer WER. The lesser the WER, the better. The breakdown of WER for all the languages can be seen below.
+
+<img src="https://raw.githubusercontent.com/Abuzariii/Open-AI-Whisper-ASR-Web-UI-Demo-With-Gradio/Main/language-breakdown.jpg" alt="WER" />
 
 It is a transcription model, means it returns text from an audio after detecting its language. So it can be used for multiple tasks like audio captioning etc.
 
